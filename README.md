@@ -1,0 +1,3 @@
+# assignment02-b8a2-gamer-zone
+
+O=> This git repo is solely dedicated to 2nd assignment for web development course offered by ProgrammingHero...
