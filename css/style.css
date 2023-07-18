@@ -128,6 +128,19 @@ nav a {
     height: 700px;
     flex-shrink: 0; */
     height: 100%;
+
+    padding: 148px 200px;
+}
+
+.banner-text-container h3 {
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-text-container h2 {
+    font-size: 95px;
+    font-weight: 800;
 }
 
 .banner-img-container {
