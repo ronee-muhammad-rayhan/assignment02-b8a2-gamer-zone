@@ -190,3 +190,30 @@ nav a {
     height: 100%;
     background-repeat: no-repeat;
 }
+
+/* Online Games section's styles */
+
+.online-games-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 0;
+    margin: auto;
+    padding: 0;
+}
+
+.cards-container {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.card {
+    /* margin: 24px; */
+}
+
+.card img {
+    width: 342px;
+    height: 400px;
+}
