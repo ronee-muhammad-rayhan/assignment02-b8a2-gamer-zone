@@ -44,7 +44,7 @@ nav {
 
 }
 
-nav ul {
+.menu-items-container ul {
     display: flex;
     align-items: center;
     text-align: center;
