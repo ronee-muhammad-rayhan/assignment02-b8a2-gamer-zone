@@ -135,9 +135,11 @@ nav a {
 /* Banner styles */
 .banner-container {
     display: flex;
+    justify-content: space-between;
     height: 700px;
     /* padding: 100px; */
     margin: 0;
+    /* max-width: 1440px; */
 }
 
 .banner-text-container {
@@ -156,7 +158,7 @@ nav a {
     /* height: 100%; */
 
     /* padding: 148px 200px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .banner-text-container h3 {
@@ -177,8 +179,8 @@ nav a {
 
 .banner-img-container {
     width: 50%;
-    border: 1px solid red;
-    margin: 19px 240px 0px 68px;
+    /* border: 1px solid red; */
+    /* margin: 19px 240px 0px 68px; */
 
 }
 
