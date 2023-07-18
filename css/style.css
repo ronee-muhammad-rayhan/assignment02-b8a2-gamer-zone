@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #FF42A5;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -27,6 +31,10 @@ nav {
 .logo-site-name-container h1 {
     font-size: 45px;
     font-weight: 700;
+}
+
+.logo-site-name-container span {
+    color: var(--primary-color);
 }
 
 .menu-items-container {
