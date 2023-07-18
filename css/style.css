@@ -6,12 +6,16 @@
 nav {
     border: 1px solid red;
     display: flex;
+    justify-content: space-between;
+    /* max-width: 1000px; */
+    margin: 39px 240px;
 }
 
 .logo-site-name-container {
     border: 1px solid green;
 
     display: flex;
+    gap: 20px;
 }
 
 .menu-items-container {
@@ -19,8 +23,15 @@ nav {
 
 }
 
-nav ul {}
+nav ul {
+    display: flex;
+    gap: 32px;
+}
 
-nav li {}
+nav li {
+    list-style: none;
+}
 
-nav a {}
+nav a {
+    text-decoration: none;
+}
