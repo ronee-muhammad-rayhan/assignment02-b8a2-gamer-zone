@@ -19,7 +19,9 @@ nav {
     display: flex;
     justify-content: space-between;
     /* max-width: 1000px; */
-    margin: 39px 240px;
+    /* margin: 39px 240px; */
+    padding: 0px 10%;
+    margin: 39px auto;
 }
 
 .logo-site-name-container {
