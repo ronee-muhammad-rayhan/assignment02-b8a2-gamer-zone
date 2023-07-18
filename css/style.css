@@ -97,10 +97,13 @@ nav a {
 /* Banner styles */
 .banner-container {
     display: flex;
+    height: 700px;
 }
 
 .banner-text-container {
     width: 50%;
+    background-image: url(../resources/images/Group\ 14.png);
+    background-position: 100%;
 }
 
 .banner-img-container {
