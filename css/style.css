@@ -105,9 +105,10 @@ nav a {
     background-image: url(../resources/images/Group\ 14.png);
     background-position: 100%;
 
-    width: 901px;
+    /* width: 901px;
     height: 700px;
-    flex-shrink: 0;
+    flex-shrink: 0; */
+    height: 100%;
 }
 
 .banner-img-container {
@@ -117,4 +118,6 @@ nav a {
 .banner-img-container img {
     width: 100%;
     object-fit: cover;
+    height: 100%;
+    background-repeat: no-repeat;
 }
