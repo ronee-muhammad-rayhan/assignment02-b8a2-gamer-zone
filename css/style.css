@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Shared styles */
 :root {
     --primary-color: #FF42A5;
 }
@@ -39,11 +40,14 @@ nav {
 
 .menu-items-container {
     border: 1px solid blue;
+    display: flex;
 
 }
 
 nav ul {
     display: flex;
+    align-items: center;
+    text-align: center;
     gap: 32px;
 }
 
