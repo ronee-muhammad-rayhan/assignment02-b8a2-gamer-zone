@@ -11,6 +11,24 @@
         padding: 0;
     }
 
+    .banner-container {
+        flex-direction: column;
+        /* gap: 0; */
+        /* padding: 0; */
+        /* margin: 0; */
+    }
+
+    .banner-text-container {
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .banner-img-container {
+        width: 100%;
+        margin: 0;
+    }
+
 }
 
 @media screen and (min-width:425px) and (max-width:768px) {
