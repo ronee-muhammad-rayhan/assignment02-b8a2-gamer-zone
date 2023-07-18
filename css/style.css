@@ -104,6 +104,10 @@ nav a {
     width: 50%;
     background-image: url(../resources/images/Group\ 14.png);
     background-position: 100%;
+
+    width: 901px;
+    height: 700px;
+    flex-shrink: 0;
 }
 
 .banner-img-container {
