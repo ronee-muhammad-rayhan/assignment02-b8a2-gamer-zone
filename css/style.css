@@ -117,9 +117,16 @@ nav a {
 .banner-container {
     display: flex;
     height: 700px;
+    /* padding: 100px; */
+    margin: 0;
 }
 
 .banner-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
     width: 50%;
     background-image: url(../resources/images/Group\ 14.png);
     background-position: 100%;
@@ -127,24 +134,32 @@ nav a {
     /* width: 901px;
     height: 700px;
     flex-shrink: 0; */
-    height: 100%;
+    /* height: 100%; */
 
-    padding: 148px 200px;
+    /* padding: 148px 200px; */
+    border: 1px solid red;
 }
 
 .banner-text-container h3 {
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
 }
 
 .banner-text-container h2 {
     font-size: 95px;
     font-weight: 800;
+
+    margin: 0;
+    padding: 0;
 }
 
 .banner-img-container {
     width: 50%;
+    border: 1px solid red;
+
 }
 
 .banner-img-container img {
