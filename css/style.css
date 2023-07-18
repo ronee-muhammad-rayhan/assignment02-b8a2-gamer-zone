@@ -39,6 +39,24 @@ body {
     background-color: var(--secondary-color);
 }
 
+.small-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+}
+
+.caption-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #534C64;
+}
+
+.title-text {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 /* Nav styles */
 nav {
     /* border: 1px solid red; */
