@@ -13,6 +13,12 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.gradient-text {
+    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
 /* Nav styles */
 nav {
     /* border: 1px solid red; */
@@ -86,4 +92,22 @@ nav a {
 
 .follow-us-on-icon {
     margin-right: 16px;
+}
+
+/* Banner styles */
+.banner-container {
+    display: flex;
+}
+
+.banner-text-container {
+    width: 50%;
+}
+
+.banner-img-container {
+    width: 50%;
+}
+
+.banner-img-container img {
+    width: 100%;
+    object-fit: cover;
 }
