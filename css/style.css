@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Nav styles */
@@ -16,6 +22,11 @@ nav {
 
     display: flex;
     gap: 20px;
+}
+
+.logo-site-name-container h1 {
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .menu-items-container {
