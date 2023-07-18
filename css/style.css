@@ -59,6 +59,17 @@ nav a {
     text-decoration: none;
 }
 
+.menu-follow-container {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.menu-items-container p {
+    margin: 18px 24px;
+}
+
 .follow-us-on-icon {
     margin-right: 16px;
 }
