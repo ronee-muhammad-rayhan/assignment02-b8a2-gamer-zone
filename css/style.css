@@ -3,3 +3,24 @@
 }
 
 /* Nav styles */
+nav {
+    border: 1px solid red;
+    display: flex;
+}
+
+.logo-site-name-container {
+    border: 1px solid green;
+
+    display: flex;
+}
+
+.menu-items-container {
+    border: 1px solid blue;
+
+}
+
+nav ul {}
+
+nav li {}
+
+nav a {}
