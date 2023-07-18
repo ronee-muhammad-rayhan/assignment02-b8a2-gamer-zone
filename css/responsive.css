@@ -7,7 +7,7 @@
 
     .menu-items-container ul {
         flex-direction: column;
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         padding: 0;
     }
 

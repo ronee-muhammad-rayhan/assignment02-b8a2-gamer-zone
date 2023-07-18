@@ -15,7 +15,7 @@ body {
 
 /* Nav styles */
 nav {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     /* max-width: 1000px; */
@@ -25,15 +25,24 @@ nav {
 }
 
 .logo-site-name-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
     display: flex;
+    align-items: center;
     gap: 20px;
+}
+
+.logo-site-name-container img {
+    width: 86px;
+    height: 40px;
+    /* flex-shrink: 0; */
 }
 
 .logo-site-name-container h1 {
     font-size: 45px;
     font-weight: 700;
+    color: #0B0223;
+    ;
 }
 
 .logo-site-name-container span {
@@ -41,7 +50,7 @@ nav {
 }
 
 .menu-items-container {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
 
 }
@@ -59,6 +68,9 @@ nav li {
 
 nav a {
     text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3C354F;
 }
 
 .menu-follow-container {
