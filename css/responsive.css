@@ -63,6 +63,14 @@
         margin: 0;
     }
 
+    .type-of-games-container {
+        /* display: grid;
+        grid-template-columns: repeat(3 1fr);
+        grid-template-rows: repeat(2 1fr);
+        width: 100%; */
+        /* flex-wrap: nowrap; */
+    }
+
 }
 
 /* For Tablet or Medium devices */
