@@ -81,6 +81,70 @@
         grid-template-rows: repeat(2 1fr);
         width: 100%; */
         /* flex-wrap: nowrap; */
+
+        display: grid;
+    }
+
+    /* TypesOfGamesRelatedStyles */
+    .type-of-games-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 2px;
+        /* background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
+
+        padding: 0;
+        margin: 0;
+    }
+
+    .game-item {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        /* border: 1px solid #FF42A5; */
+        background-color: white;
+        border-radius: 16px;
+        padding: 0px;
+        gap: 2px;
+        height: 30px;
+        /* flex-wrap: wrap; */
+
+    }
+
+    .game-item:hover {
+        border: 1px solid var(--primary-color);
+        color: violet;
+    }
+
+    .game-item-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+        flex-wrap: wrap;
+        width: 48px;
+    }
+
+    .game-item-img img {
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .game-item h6 {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
     }
 
 }
