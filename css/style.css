@@ -267,6 +267,8 @@ nav a {
     justify-content: center;
     gap: 27px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+    padding: 120px 0px;
 }
 
 .game-item {
@@ -277,6 +279,11 @@ nav a {
     border-radius: 48px;
     padding: 10px;
     gap: 16px;
+}
+
+.game-item:hover {
+    border: 1px solid var(--primary-color);
+    color: violet;
 }
 
 .game-item-img {
