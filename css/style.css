@@ -322,6 +322,16 @@ footer .logo-site-name-container h1 {
     margin-bottom: 20px;
 }
 
+.footer-icon-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.fa-brands {
+    font-size: 40px;
+}
+
 footer a {
     text-decoration: none;
     color: #FFF;
