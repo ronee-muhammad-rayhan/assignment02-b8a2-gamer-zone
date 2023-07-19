@@ -25,9 +25,7 @@ body {
     padding: 21px 40px;
     align-items: flex-start;
     gap: 10px;
-
     border-radius: 48px;
-    /* background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%)); */
     color: white;
 }
 
@@ -67,18 +65,13 @@ body {
 
 /* Nav styles */
 nav {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    /* max-width: 1000px; */
-    /* margin: 39px 240px; */
     padding: 0px 10%;
     margin: 39px auto;
 }
 
 .logo-site-name-container {
-    /* border: 1px solid green; */
-
     display: flex;
     align-items: center;
     gap: 20px;
@@ -87,7 +80,6 @@ nav {
 .logo-site-name-container img {
     width: 86px;
     height: 40px;
-    /* flex-shrink: 0; */
 }
 
 .logo-site-name-container h1 {
@@ -102,7 +94,6 @@ nav {
 }
 
 .menu-items-container {
-    /* border: 1px solid blue; */
     display: flex;
 
 }
@@ -145,9 +136,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     height: 700px;
-    /* padding: 100px; */
     margin: 0;
-    /* max-width: 1440px; */
 }
 
 .banner-text-container {
@@ -159,14 +148,6 @@ nav a {
     width: 50%;
     background-image: url(../resources/images/Group\ 14.png);
     background-position: 100%;
-
-    /* width: 901px;
-    height: 700px;
-    flex-shrink: 0; */
-    /* height: 100%; */
-
-    /* padding: 148px 200px; */
-    /* border: 1px solid red; */
 }
 
 .banner-text-container h3 {
@@ -180,16 +161,12 @@ nav a {
 .banner-text-container h2 {
     font-size: 95px;
     font-weight: 800;
-
     margin: 0;
     padding: 0;
 }
 
 .banner-img-container {
     width: 50%;
-    /* border: 1px solid red; */
-    /* margin: 19px 240px 0px 68px; */
-
 }
 
 .banner-img-container img {
@@ -200,7 +177,6 @@ nav a {
 }
 
 /* Online Games section's styles */
-
 .online-games-section-container {
     display: flex;
     flex-direction: column;
@@ -216,17 +192,6 @@ nav a {
     gap: 24px;
     margin: 0 auto;
 }
-
-.card {
-    /* margin: 24px; */
-}
-
-.card:hover {
-    /* border: 3px solid var(--primary-color); */
-}
-
-.card img {}
-
 
 .card img {
     width: 342px;
@@ -257,7 +222,6 @@ nav a {
     opacity: 0;
     transition: .3s ease;
     background-color: black;
-
     border: 4px solid var(--primary-color);
     border-radius: 16px;
 }
@@ -345,14 +309,12 @@ nav a {
     justify-content: center;
     gap: 27px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-
     padding: 120px 0px;
 }
 
 .game-item {
     display: flex;
     align-items: center;
-    /* border: 1px solid #FF42A5; */
     background-color: white;
     border-radius: 48px;
     padding: 10px;
@@ -379,7 +341,6 @@ nav a {
 /* Footer */
 footer {
     text-align: center;
-    /* background-color: #0B0223; */
     background: #0B0223;
     color: white;
 }
