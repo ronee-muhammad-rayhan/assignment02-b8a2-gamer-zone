@@ -266,12 +266,14 @@ nav a {
     text-align: center;
     justify-content: center;
     gap: 48px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .game-item {
     display: flex;
     align-items: center;
-    border: 1px solid #FF42A5;
+    /* border: 1px solid #FF42A5; */
+    background-color: white;
     border-radius: 48px;
     padding: 10px;
     gap: 16px;
