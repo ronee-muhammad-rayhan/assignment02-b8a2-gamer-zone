@@ -256,3 +256,22 @@ nav a {
     width: 50%;
     text-align: left;
 }
+
+/* TypeOfGamesSectionStyles */
+.type-of-games-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.game-item {
+    display: flex;
+    border: 1px solid #FF42A5;
+}
+
+.game-item-img {}
+
+.game-item h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
