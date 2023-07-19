@@ -327,7 +327,16 @@ nav a {
     right: -100px;
 }
 
-.play-game-online-section-container .text-container {}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container h4, p {
+    margin: 0;
+    padding: 0;
+}
 
 /* TypeOfGamesSectionStyles */
 .type-of-games-container {
