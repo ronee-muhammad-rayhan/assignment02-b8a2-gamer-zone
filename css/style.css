@@ -301,6 +301,7 @@ nav a {
 /* play-game-online-section-container styles */
 .play-game-online-section-container {
     display: flex;
+    gap: 100px;
     border: 1px solid crimson;
     padding: 100px;
 }
