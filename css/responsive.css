@@ -176,7 +176,8 @@
     }
 
     .footer-icon-box {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         gap: 40px;
     }
@@ -190,11 +191,16 @@
         color: #FFF;
     }
 
-    .footer-toc-box, .footer-copyright-box {
-        display: flex;
+    .footer-toc-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
         gap: 20px;
         color: rgba(255, 255, 255, 0.60);
+    }
+
+    .footer-copyright-box {
+        margin: 10px auto;
     }
 
 }
