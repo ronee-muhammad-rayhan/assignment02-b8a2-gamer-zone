@@ -38,11 +38,19 @@
     /* PlayGamesOnline */
     .play-game-online-section-container {
         flex-direction: column-reverse;
-        align-self: auto;
+        /* align-self: auto; */
+        text-align: center;
+        padding: 10px;
     }
 
     .play-game-online-section-container .image-container {
         width: 100%;
+    }
+
+    #hero-in-action {
+        /* position: relative; */
+        padding-right: 64px;
+        padding-bottom: 64px;
     }
 
     #hero-in-action img {
@@ -50,13 +58,17 @@
         width: 100%;
     }
 
-    #hero-in-action {
-        position: relative;
+    #baby-with-cat {
+        bottom: 0;
+        right: 0;
     }
 
-    #baby-with-cat img {}
+    #baby-with-cat img {
+        width: 200px;
+        height: 200px;
+    }
 
-    .play-game-online-section-container .text-container {
+    .text-container {
         padding: 0;
         width: 100%;
         text-align: center;
