@@ -302,40 +302,31 @@ nav a {
 .play-game-online-section-container {
     display: flex;
     border: 1px solid crimson;
-    width: 100%;
+    padding: 100px;
 }
 
-.play-game-online-section-container .image-container {
+.image-container {
     border: 1px solid lime;
-    width: 50%;
-
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 3px solid blue;
 
 }
 
 #hero-in-action {
     position: relative;
-    /* bottom: 100px; */
-    right: 0;
-    z-index: 1;
-    margin-bottom: 100px;
+    top: 0;
+    left: 0;
 }
 
 #baby-with-cat {
     position: absolute;
-    right: -100px;
     bottom: -100px;
-    z-index: 2;
+    right: -100px;
 }
 
-.play-game-online-section-container .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid aqua;
-    padding-left: 248px;
-    width: 50%;
-    text-align: left;
-}
+.play-game-online-section-container .text-container {}
 
 /* TypeOfGamesSectionStyles */
 .type-of-games-container {
