@@ -213,6 +213,17 @@ nav a {
     /* margin: 24px; */
 }
 
+.card:hover {
+    /* border: 3px solid var(--primary-color); */
+}
+
+.card img {}
+
+.img-card:hover {
+    border: 3px solid var(--primary-color);
+    border-radius: 16px;
+}
+
 .card img {
     width: 342px;
     height: 400px;
